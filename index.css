@@ -1,0 +1,9 @@
+body {
+    width: 1600px;
+    margin: 0 auto;
+}
+.body-wrapper{
+    width: 1600px;
+    height: 1000px;
+    background: no-repeat url("./images/bg_coffee.png");
+}
