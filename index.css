@@ -10,7 +10,6 @@ body {
 }
 
 .mini-coffee-name-wrapper {
-
     display: flex;
     position: absolute;
     bottom: 42px;
@@ -38,7 +37,7 @@ body {
 
 }
 
-.coffe-name-text_wrapper {
+.coffee-name-text_wrapper {
     display: flex;
 }
 
@@ -80,4 +79,48 @@ body {
     line-height: 56px;
     color: black;
     text-align: left;
+}
+
+.coffee-recipe-wrapper {
+    display: flex;
+    position: absolute;
+    top: 256px;
+    left: 757px;
+}
+
+.coffee-recipe-characteristics-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 66px;
+}
+
+.coffee-recipe-characteristics-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.coffee-recipe-characteristics-item-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-recipe-characteristics-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.bottom-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFA41B;
 }
