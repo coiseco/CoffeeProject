@@ -138,3 +138,42 @@ body {
     font-weight: 400;
     color: black;
 }
+
+.coffee-recipe-ingredients-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.coffee-recipe-ingredients-header-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.coffee-recipe-ingredients-header-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+
+.coffee-recipe-ingredients-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.coffee-recipe-ingredients-list-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.coffee-recipe-ingredients-list-item-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.8);
+}
