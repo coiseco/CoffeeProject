@@ -177,3 +177,42 @@ body {
     line-height: 21px;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.coffee-recipe-cook_steps-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.coffee-recipe-cook_steps-header-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.coffee-recipe-cook_steps-header-text {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+
+.coffee-recipe-cook_steps-list-wrapper {
+    display: flex;
+}
+
+.cook_steps-list {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.cook_steps-list-item {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.8);
+    list-style-type: decimal;
+}
+
+.cook_steps-list-item:last-child{
+    margin-bottom: 0;
+}
